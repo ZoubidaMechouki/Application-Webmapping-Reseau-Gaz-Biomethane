@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="UTF-8">
   <title>Réseau gaz et biométhane</title>
@@ -7,14 +8,22 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
   <style>
-    #map { height: 500px; }
+    #map {
+      height: 500px;
+    }
   </style>
 </head>
+
 <body>
   <h1>Réseau gaz et biométhane</h1>
+  <label for="filtre-region">Région :</label>
+  <select id="filtre-region">
+    <option value="">Toutes les régions</option>
+  </select>
   <div id="map"></div>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
   <script src="script.js"></script>
 </body>
+
 </html>
