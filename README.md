@@ -4,7 +4,7 @@ Ce travail s'inscrit dans le cadre d'un projet personnel de développement d'une
 
 *Mots-clés : SIG, webmapping, JavaScript, Leaflet, GeoJSON, open data, API Géo*
 
-## Points clés
+Points clés
 
 - **Carte interactive des sites d'injection** : visualisation de 864 sites de biométhane sur un fond OpenStreetMap, avec popups (projet, commune, capacité) et regroupement des marqueurs.
 - **Traitement des données géospatiales** : le fichier source ne contient pas de géométrie, donc les sites sont localisés par jointure sur le code INSEE avec le centre des communes (API Géo).
