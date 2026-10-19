@@ -4,10 +4,6 @@ Ce travail s'inscrit dans le cadre d'un projet personnel de développement d'une
 
 *Mots-clés : SIG, webmapping, JavaScript, Leaflet, GeoJSON, open data, API Géo*
 
-![Carte des sites d'injection de biométhane en France](docs/carte-france.jpg)
-
-![Filtre par région : Île-de-France](docs/carte-ile-de-france.jpg)
-
 ## Points clés
 
 - **Carte interactive des sites d'injection** : visualisation de 864 sites de biométhane sur un fond OpenStreetMap, avec popups (projet, commune, capacité) et regroupement des marqueurs.
@@ -32,6 +28,10 @@ Ce travail s'inscrit dans le cadre d'un projet personnel de développement d'une
 - GeoJSON (format des données des sites d'injection)
 - API Géo (centres des communes pour localiser les sites)
 - OpenStreetMap (fond de carte)
+
+![Carte des sites d'injection de biométhane en France](docs/carte-france.jpg)
+
+![Filtre par région : Île-de-France](docs/carte-ile-de-france.jpg)
 
 📊 **Sources des données**
 
