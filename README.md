@@ -41,4 +41,4 @@ Ce travail s'inscrit dans le cadre d'un projet personnel de développement d'une
 
 ⚠️ **Limite** : les sites sont placés au centre de leur commune, et non à l'emplacement exact de l'installation.
 
-Ce projet m'a permis de mettre en pratique JavaScript, la manipulation de données géospatiales et le webmapping avec Leaflet.
+Cette application constitue la première version d'un projet évolutif. Elle pourra être étendue, notamment par un stockage des données dans une base géographique, une API dédiée, des traitements spatiaux (capacité par territoire, proximité) et une automatisation de l'import des mises à jour.
