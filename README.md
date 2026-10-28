@@ -29,9 +29,17 @@ Points clés
 - API Géo (centres des communes pour localiser les sites)
 - OpenStreetMap (fond de carte)
 
-![Carte des sites d'injection de biométhane en France](docs/carte-france.jpg)
+<p align="center">
+  <img src="docs/carte-france.jpg" alt="Carte des sites d'injection de biométhane en France" width="80%">
+  <br>
+  <strong><em>Figure 1</em></strong><em> – Carte des sites d'injection de biométhane en France</em>
+</p>
 
-![Filtre par région : Île-de-France](docs/carte-ile-de-france.jpg)
+<p align="center">
+  <img src="docs/carte-ile-de-france.jpg" alt="Filtre par région : Île-de-France" width="80%">
+  <br>
+  <strong><em>Figure 2</em></strong><em> – Filtre par région : Île-de-France</em>
+</p>
 
 📊 **Sources des données**
 
