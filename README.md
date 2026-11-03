@@ -12,7 +12,7 @@ Points clés :
 - **Traitement des données géospatiales** : le fichier source ne contient pas de géométrie, donc les sites sont localisés par jointure sur le code INSEE avec le centre des communes (API Géo).
 - **Interface dynamique** : filtre par région, compteur de sites affichés et recadrage automatique de la carte.
 
-## Résumé
+**Résumé :**
 
 🚀 **Fonctionnalités**
 
@@ -51,4 +51,4 @@ Points clés :
 
 ⚠️ **Limite** : les sites sont placés au centre de leur commune, et non à l'emplacement exact de l'installation.
 
-Cette application constitue la première version d'un projet évolutif. Elle pourra être étendue, notamment par un stockage des données dans une base géographique, une API dédiée, des traitements spatiaux (capacité par territoire, proximité) et une automatisation de l'import des mises à jour.
+Cette application fait partie d'un travail plus large sur le développement et la mise en production d'applications webmapping. Cette première version, centrée sur la visualisation et le filtrage des données en JavaScript, pourra être étendue et optimisée, notamment par la conteneurisation de l'application avec Docker, l'ajout de contrôles automatiques du code dans la pipeline GitHub Actions, et l'enrichissement des filtres (type de site, capacité de production).
