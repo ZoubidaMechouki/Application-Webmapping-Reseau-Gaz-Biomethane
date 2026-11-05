@@ -1,0 +1,18 @@
+name: Contrôles du code
+
+on: [push, pull_request]
+
+jobs:
+  controles:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le code
+        uses: actions/checkout@VERSION
+
+      - name: Vérifier la syntaxe de script.js
+        run: node --check frontend/script.js
+
+      - name: Vérifier les fichiers de données (JSON valide)
+        run: |
+          node -e "JSON.parse(require('fs').readFileSync('frontend/data/sites-injection-biomethane.geojson','utf8'))"
+          node -e "JSON.parse(require('fs').readFileSync('frontend/data/communes-centres.json','utf8'))"
