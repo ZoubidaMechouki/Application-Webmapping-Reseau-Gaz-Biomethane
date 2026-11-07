@@ -22,8 +22,13 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # Contrôles du code : le déploiement ne démarre que s'ils réussissent
+  controles:
+    uses: ./.github/workflows/ci.yml
+
   # Single deploy job since we're just deploying
   deploy:
+    needs: controles
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
