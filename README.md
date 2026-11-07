@@ -21,6 +21,7 @@ Points clés :
 - Regroupement dynamique des marqueurs selon le niveau de zoom
 - Filtre par région avec compteur et recadrage automatique de la carte
 - Localisation automatisée des sites par jointure avec les communes (code INSEE)
+- Contrôles automatiques du code et des données, puis déploiement de la démo à chaque mise à jour
 
 🔧 **Technologies utilisées**
 
@@ -30,6 +31,7 @@ Points clés :
 - GeoJSON (format des données des sites d'injection)
 - API Géo (centres des communes pour localiser les sites)
 - OpenStreetMap (fond de carte)
+- GitHub Actions et GitHub Pages (contrôles automatiques et déploiement de la démo)
 
 <p align="center">
   <img src="docs/carte-france.jpg" alt="Carte des sites d'injection de biométhane en France" width="80%">
