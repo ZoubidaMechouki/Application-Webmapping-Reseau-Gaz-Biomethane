@@ -20,3 +20,6 @@ jobs:
         run: |
           node -e "JSON.parse(require('fs').readFileSync('frontend/data/sites-injection-biomethane.geojson','utf8'))"
           node -e "JSON.parse(require('fs').readFileSync('frontend/data/communes-centres.json','utf8'))"
+
+      - name: Vérifier la construction de l'image Docker
+        run: docker build -t webmap-biomethane .
