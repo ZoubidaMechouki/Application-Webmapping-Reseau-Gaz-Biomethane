@@ -21,7 +21,7 @@ Points clés :
 - Regroupement dynamique des marqueurs selon le niveau de zoom
 - Filtre par région avec compteur et recadrage automatique de la carte
 - Localisation automatisée des sites par jointure avec les communes (code INSEE)
-- Contrôles automatiques du code et des données, puis déploiement de la démo à chaque mise à jour
+- Contrôles automatiques du code, des données et de la construction de l'image Docker, puis déploiement de la démo à chaque mise à jour
 - Exécution de l'application dans un conteneur Docker (nginx)
 
 🔧 **Technologies utilisées**
